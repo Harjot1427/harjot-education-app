@@ -89,3 +89,37 @@
     font-size: 12px;
   }
 }
+@media (max-width: 550px) {
+  .slider ul {
+    width: 400%;
+  }
+
+  .slider ul li {
+    width: 100%;
+  }
+  .slider {
+    width: 140%;
+    margin-left: -20%;
+  }
+  .next-btn {
+    right: -29px;
+  }
+  .back-btn {
+    left: -29px;
+  }
+}
+@media (max-width: 400px) {
+  .slider ul li {
+    width: 120%;
+  }
+  .slider ul {
+    width: 420%;
+    margin-left: -2%;
+  }
+  .next-btn {
+    right: 0;
+  }
+  .back-btn {
+    left: 0;
+  }
+}
