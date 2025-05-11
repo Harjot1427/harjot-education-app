@@ -110,16 +110,17 @@
 }
 @media (max-width: 400px) {
   .slider ul li {
-    width: 120%;
+    width: 110%;
+    margin-left: 1%;
   }
   .slider ul {
-    width: 420%;
+    width: 400%;
     margin-left: -2%;
   }
   .next-btn {
-    right: 0;
+    right: -14px;
   }
   .back-btn {
-    left: 0;
+    left: -13px;
   }
 }
