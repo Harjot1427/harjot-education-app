@@ -12,13 +12,13 @@ const About = ({ setPlayState }) => {
           src={play_icon}
           alt="Play"
           className="play-icon"
-          onClick={() => {
+          onClick={() => { 
             setPlayState(true);
           }}
         />
       </div>
       <div className="about-right">
-        <h3>About University</h3>
+        <h3>ABOUT UNIVERSITY</h3>
         <h2>Nurturing Tomorrow's Leaders Today</h2>
         <p>
           Embark on a transformative educational journey with our university's

@@ -29,7 +29,7 @@ const Testimonials = () => {
     <div className="testimonials">
       <img src={next_icon} alt="" className="next-btn" onClick={slideFoward} />
       <img
-        src={back_icon}
+        src={back_icon} 
         alt=""
         className="back-btn"
         onClick={slideBackward}
